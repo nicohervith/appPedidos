@@ -1,12 +1,13 @@
 import "./App.scss";
 import Home from "./Components/Home";
+import { CartProvider } from "./Context/CartContext";
 
 function App() {
   return (
-    <div>
-      <Home/>
-    </div>
-  )
+    <CartProvider>
+      <Home />
+    </CartProvider>
+  );
   
 }
 
