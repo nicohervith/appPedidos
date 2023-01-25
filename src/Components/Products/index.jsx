@@ -19,7 +19,7 @@ const Products = () => {
             </div>
             {!product.inCart ? (
               <button onClick={() => addItemToCart(product)}>
-                Add to Cart
+                Añadir al carrito
               </button>
             ) : (
               <button>En el carrito</button>
